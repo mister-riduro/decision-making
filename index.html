@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sistem Pengambilan Keputusan</title>
+        <link rel="stylesheet" href="style.css">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+            crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin="crossorigin">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
+        <div class="content-container">
+            <div class="title">
+                <h3 id="text-title">Sistem Pengambilan keputusan</h3>
+                <p>Isi semua isian di bawah dengan menggunakan angka !!</p>
+            </div>
+            <div class="content">
+                <form action="index.php" method="post">
+                    <label for="hargajual" class="form-label">Harga Jual</label>
+                    <input
+                        type="text"
+                        class="form-control"
+                        id="hargajual"
+                        name="hargajual"
+                        placeholder="Harga Jual"
+                        required>
+
+                    <label for="hargabeli" class="form-label">Harga Beli</label>
+                    <input
+                        type="text"
+                        class="form-control"
+                        id="hargabeli"
+                        name="hargabeli"
+                        placeholder="Harga Beli"
+                        required>
+
+                    <div class="prob1">
+                        <div class="prob1-item-1">
+                            <label for="jumlahprob1" class="form-label">Jumlah Laku 1</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="jumlahprob1"
+                                name="jumlahprob1"
+                                placeholder="Jumlah Laku 1"
+                                required>
+                        </div>
+
+                        <div class="prob1-item-2">
+                            <label for="probability1" class="form-label">Probabilitas Laku 1</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="probability1"
+                                name="probability1"
+                                placeholder="Probabilitas Laku 1"
+                                required>
+                        </div>
+                    </div>
+
+                    <div class="prob2">
+                        <div class="prob2-item-1">
+                            <label for="jumlahprob2" class="form-label">Jumlah Laku 2</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="jumlahprob2"
+                                name="jumlahprob2"
+                                placeholder="Jumlah Laku 2"
+                                required>
+                        </div>
+
+                        <div class="prob2-item-2">
+                            <label for="probability2" class="form-label">Probabilitas Laku 2</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="probability2"
+                                name="probability2"
+                                placeholder="Probabilitas Laku 2"
+                                required>
+                        </div>
+                    </div>
+
+                    <div class="prob3">
+                        <div class="prob3-item-1">
+                            <label for="jumlahprob3" class="form-label">Jumlah Laku 3</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="jumlahprob3"
+                                name="jumlahprob3"
+                                placeholder="Jumlah Laku 3"
+                                required>
+                        </div>
+
+                        <div class="prob3-item-2">
+                            <label for="probability3" class="form-label">Probabilitas Laku 3</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="probability3"
+                                name="probability3"
+                                placeholder="Probabilitas Laku 3"
+                                required>
+                        </div>
+                    </div>
+
+                    <div class="prob4">
+                        <div class="prob4-item-1">
+                            <label for="jumlahprob4" class="form-label">Jumlah Laku 4</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="jumlahprob4"
+                                name="jumlahprob4"
+                                placeholder="Jumlah Laku 4"
+                                required>
+                        </div>
+
+                        <div class="prob4-item-2">
+                            <label for="probability4" class="form-label">Probabilitas Laku 4</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="probability4"
+                                name="probability4"
+                                placeholder="Probabilitas Laku 4"
+                                required>
+                        </div>
+                    </div>
+
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-primary" type="submit">Hitung Expected Return</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
